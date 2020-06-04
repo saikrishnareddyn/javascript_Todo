@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url(/filter_list/img/searchicon.png);
+  background-position: 12px, 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 12px 20px 12px 40px;
+  border: 1px gray solid;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+#myTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px #ddd solid;
+  font-size: 20px;
+}
+#myTable th,
+#myTable td {
+  text-align: left;
+  padding: 12px;
+}
+#myTable tr {
+  border-bottom: 1px solid #f1f1f1;
+}
+#myTable th,
+#myTable tr:hover {
+  background-color: #f1f1f1;
+}

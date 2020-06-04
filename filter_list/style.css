@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+#myinput {
+  background-image: url(./img/searchicon.png);
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px green solid;
+  margin-bottom: 25px;
+}
+#myUl {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#myUl li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: flex;
+}
+#myUl li a:hover:not(.header) {
+  background-color: yellow;
+}
